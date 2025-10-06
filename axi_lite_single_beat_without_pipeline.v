@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 
-module m_axi (
+module m_axi (      // axi_lite with single beat without pipeline and only write operation
  input wire i_clk,
  i_resetn,
 
